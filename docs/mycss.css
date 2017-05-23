@@ -22,41 +22,41 @@ h2{
   width: 42px;
 }
 .myCell.flag{
-  background: url("img/flag.png") no-repeat center;
+  background: url("~img/flag.png") no-repeat center;
 }
 .myCell.open{
   background: #ffffe6;
 }
 .myCell.mine{
-  background: url("img/mine.png") no-repeat center;
+  background: url("~img/mine.png") no-repeat center;
 }
 .myCell.x{
-  background: url("img/x.png") no-repeat center;
+  background: url("~img/x.png") no-repeat center;
 }
 
 .myCell.n1{
-  background: url("img/1.png") no-repeat center;
+  background: url("~img/1.png") no-repeat center;
 }
 .myCell.n2{
-  background: url("img/2.png") no-repeat center;
+  background: url("~img/2.png") no-repeat center;
 }
 .myCell.n3{
-  background: url("img/3.png") no-repeat center;
+  background: url("~img/3.png") no-repeat center;
 }
 .myCell.n4{
-  background: url("img/4.png") no-repeat center;
+  background: url("~img/4.png") no-repeat center;
 }
 .myCell.n5{
-  background: url("img/5.png") no-repeat center;
+  background: url("~img/5.png") no-repeat center;
 }
 .myCell.n6{
-  background: url("img/6.png") no-repeat center;
+  background: url("~img/6.png") no-repeat center;
 }
 .myCell.n7{
-  background: url("img/7.png") no-repeat center;
+  background: url("~img/7.png") no-repeat center;
 }
 .myCell.n8{
-  background: url("img/8.png") no-repeat center;
+  background: url("~img/8.png") no-repeat center;
 }
 
 
