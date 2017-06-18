@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html  ng-app='shmotApp'>
+<head>
+    <meta charset="UTF-8">
+    <title>Player's statistics</title>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="../web/css/style.css">
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.js'></script>
+    <script src="../web/js/controller.js"></script>
+</head>
+
+<body ng-controller='statisticsCtrl'>
+<div class="form">
+    <div id="login">
+        <h1>My Statistics</h1>
+        <form id="form_id" method="post" name="myform">
+            <a>My $ win rate: {{dolars}}</a>
+            <br>
+            <a>My gross profit win rate: {{grossProfit}}</a>
+        </form>
+
+    </div>
+
+</div><!-- tab-content -->
+
+</div> <!-- /form -->
+
+</body>
+</html>

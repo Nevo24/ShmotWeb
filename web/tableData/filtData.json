@@ -1,0 +1,77 @@
+[
+   {
+      "username":"Ratnesh Singh",
+      "score":100,
+      "filtType":"The total gross profit"
+   },
+   {
+      "username":"Ratnesh Singh",
+      "score":90,
+      "filtType":"The total gross profit"
+   },
+   {
+      "username":"Ratnesh Singh",
+      "score":80,
+      "filtType":"The highest cash gain in a game"
+   },
+   {
+      "username":"Ratnesh Singh",
+      "score":100,
+      "filtType":"The highest cash gain in a game"
+   },
+   {
+      "username":"Rahul Dalal",
+      "score":100,
+      "filtType":"The highest cash gain in a game"
+   },
+   {
+      "username":"Rahul Dalal",
+      "score":20,
+      "filtType":"The highest cash gain in a game"
+   },
+   {
+      "username":"Rahul Dalal",
+      "score":79,
+      "filtType":"The number of games played"
+   },
+   {
+      "username":"Rahul Dalal",
+      "score":80,
+      "filtType":"The number of games played"
+   },
+   {
+      "username":"Swati Singh",
+      "score":200,
+      "filtType":"The number of games played"
+   },
+   {
+      "username":"Swati Singh",
+      "score":30,
+      "filtType":"The number of games played"
+   },
+   {
+      "username":"Swati Singh",
+      "score":79,
+      "filtType":"The number of games played"
+   },
+   {
+      "username":"Swati Singh",
+      "score":40,
+      "filtType":"The number of games played"
+   },
+   {
+      "username":"Rajib Ganguly",
+      "score":50,
+      "filtType":"The total gross profit"
+   },
+   {
+      "username":"Rajib Ganguly",
+      "score":60,
+      "filtType":"The total gross profit"
+   },
+   {
+      "username":"Rajib Ganguly",
+      "score":70,
+      "filtType":"The total gross profit"
+   }
+]
