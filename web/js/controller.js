@@ -61,16 +61,16 @@ function getData(username, password, type) {
     var url;
     switch (type){
         case "login":
-             url= "https://localhost:55802/api/System?username=" + username + "&password="+password;
+             url= "https://192.168.14.98:55802/api/System?username=" + username + "&password="+password;
             break;
         case "statistics":
-            url= "https://localhost:55802/api/System?username=" + username;
+            url= "https://192.168.14.98:55802/api/System?username=" + username;
             break;
         case "leaders":
-            url= "https://localhost:55802/api/System";
+            url= "https://192.168.14.98:55802/api/System";
             break;
     }
-    //const url = "https://localhost:55802/api/System?username=" + username + "&password="+password;
+    //const url = "https://192.168.14.98:55802/api/System?username=" + username + "&password="+password;
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
 
