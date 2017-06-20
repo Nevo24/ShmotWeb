@@ -1,4 +1,6 @@
 var app=angular.module('shmotApp', []);
+var ip = "192.168.14.10";
+var port = "55802";
 userData = [];
 app.controller('loginCtrl', function($scope)
 {
@@ -61,16 +63,15 @@ function getData(username, password, type) {
     var url;
     switch (type){
         case "login":
-             url= "http://192.168.14.98:55801/api/System?username=" + username + "&password="+password;
+             url= "https://" + ip + ":" + port + "/api/System?username=" + username + "&password="+password;
             break;
         case "statistics":
-            url= "http://192.168.14.98:55801/api/System?username=" + username;
+            url= "https://" + ip + ":" + port + "/api/System?username=" + username;
             break;
         case "leaders":
-            url= "http://192.168.14.98:55801/api/System";
+            url= "https://" + ip + ":" + port + "/api/System";
             break;
     }
-    //const url = "http://192.168.14.98:55801/api/System?username=" + username + "&password="+password;
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
 
